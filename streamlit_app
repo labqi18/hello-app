@@ -11,7 +11,7 @@ import torch.optim as optim
 import pandas as pd
 import seaborn as sns
 
-data = pd.read_csv('data/Churn_Modelling.csv')
+data = pd.read_csv('data/Churn_Modelling.csv',sep=";")
 # One-Hot Encoding untuk kolom kategorik
 data_encoded = pd.get_dummies(data, columns=['Gender', 'HasCrCard', 'IsActiveMember'], drop_first=False)
 
