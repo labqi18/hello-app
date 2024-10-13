@@ -188,7 +188,7 @@ if selected == "Home":
         </marquee>
     """, unsafe_allow_html=True)
 
-    # Menambahkan gambar di bawah teks marquee tanpa efek
+    # Menambahkan gambar di bawah teks
     st.image("bank.jpg", use_column_width=True)  
 # Kondisi jika pengguna memilih Visualisasi
 # If the user selects Visualization
